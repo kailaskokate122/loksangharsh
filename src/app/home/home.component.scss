@@ -1,0 +1,116 @@
+.interview-question-answer-circle {
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    //border-radius: 20px;
+    line-height: 100px;
+    font-weight: bold;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media(max-width: 767px) {
+    .home-section {
+        height: auto;
+        overflow: hidden;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .interview-question-answer-circle {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+}
+@media(max-width: 420px) {
+    .interview-question-answer-circle {
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+        margin-left: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+@media(max-width: 380px) {
+    .interview-question-answer-circle {
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+    }
+}
+
+.html-interview-question-answer {
+    background: #E04006;
+}
+.css-interview-question-answer {
+    background: #4169E1;
+}
+.javascript-interview-question-answer {
+    background: rgb(255,165,0);
+}
+.jquery-interview-question-answer {
+    background: #0769AD;
+    // background: #fff;
+    // border: 1px solid #0769AD;
+    // box-shadow: 0px 0px 2px #0769AD;
+}
+.bootstrap-interview-question-answer {
+    background: #563D7C;
+}
+.ionic-interview-question-answer {
+    background: #4886F2;
+}
+.angular-interview-question-answer {
+    background: #DD0031;
+}
+.react-interview-question-answer {
+    background: #5ADAFD;
+}
+.c-interview-question-answer {
+    background: #566FB5;
+}
+.ds-interview-question-answer {
+    background: #7BBD3E;
+    font-size: 50px;
+    font-weight: bold;
+}
+.cpp-interview-question-answer {
+    background: #659BD3;
+} 
+.java-interview-question-answer {
+    background: #00728B;
+    //border: 1px solid #5382A1;
+}
+.python-interview-question-answer {
+    background: rgb(100,100,100);
+}
+.csharp-interview-question-answer {
+    background: #9B5096;
+}
+.php-interview-question-answer {
+    background: #617CBE;
+}
+.android-interview-question-answer {
+    background: #A4C639;
+}
+.hadoop-interview-question-answer {
+    background: rgb(255,255,0);
+}
+.sql-interview-question-answer {
+    background: #0075CF;
+}
+.mpsc-interview-question-answer {
+    background: #FEFEFE;
+}
+.upsc-interview-question-answer {
+    background: #fff;
+}
